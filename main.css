@@ -29,7 +29,7 @@ html,body{
 	height:100%;
 	background:#111;
   overflow-x: hidden;
-    overflow-y: scroll;
+  overflow-y: scroll;
 
 }
 
@@ -44,7 +44,7 @@ html{
   font:normal 75% Arial, Helvetica, sans-serif;
 }*/
 .main{
-  min-height: 640px;
+  min-height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -894,10 +894,6 @@ border: .5px solid rgba(242,242,242,0.03);
 
 @media  (max-width: 1000px) {
 
-  .smallerScreen{
-    position: absolute;
-    z-index: 100;
-  }
 
   .divider{
     padding-top: 0vh;
@@ -1015,10 +1011,26 @@ border: .5px solid rgba(242,242,242,0.03);
 
 
 
+/*==========iphone query*/
 
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
 
 
+  #particles-js{
+    width: 100%;
+    height: 90vh;
+    background-color:#252627;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+}
 
 
 
