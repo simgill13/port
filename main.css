@@ -1027,6 +1027,9 @@ html,body{
   overflow-y: hidden;
 
 }
+html.touch body {
+     overflow:hidden;
+}
  .main{
   height: 100%;
   overflow-x: hidden;
