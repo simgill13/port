@@ -29,7 +29,7 @@ html,body{
 	height:100%;
 	background:#111;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 
 }
 
@@ -1019,17 +1019,8 @@ border: .5px solid rgba(242,242,242,0.03);
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-html,body{ 
-  width:100%;
-  height:100%;
-  background:#111;
-  overflow-x: hidden;
-  overflow-y: hidden;
 
-}
-html.touch body {
-     overflow:hidden;
-}
+
  .main{
   height: 100%;
   overflow-x: hidden;
@@ -1290,7 +1281,7 @@ body .dot {
   width: 10px;
   height: 10px;
   margin-top: -5px;
-  margin-left: 30px;
+  margin-left: 28px;
   border-radius: 50%;
   background: red;
   z-index: -1;
