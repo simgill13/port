@@ -389,8 +389,7 @@ html{
     -webkit-animation: slide 2s forwards;
     -webkit-animation-delay: 2s;
     animation: slide 1s forwards;
-    animation-delay: 2s;
-    
+    animation-delay: 2s;   
     
 }
 @-webkit-keyframes slide {
@@ -1152,7 +1151,7 @@ html,body{
 
 
 .slide-in {
-  z-index: 0; /* to position it in front of the other content */
+  z-index: 8; /* to position it in front of the other content */
   position: absolute;
   overflow: hidden; /* to prevent scrollbar appearing */
   width: 100%;
@@ -1272,11 +1271,7 @@ html,body{
     margin-left: -1px;
   }
 }
-body {
-  background: #000;
-  overflow: hidden;
-  margin: 0;
-}
+
 body .pacman:before, body .pacman:after {
   content: '';
   position: absolute;
