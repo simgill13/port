@@ -509,12 +509,12 @@ border: .5px solid rgba(242,242,242,0.03);
 
 
 
-
+/*
 #carousel {
   position: relative;
   height: 400px;
   top: 50%;
-  margin-top: 10%;
+  margin-top: 13%;
   transform: translateY(-50%);
   overflow: hidden;
 }
@@ -590,7 +590,7 @@ border: .5px solid rgba(242,242,242,0.03);
   bottom: 10px;
 }
 
-
+*/
 
 
 
@@ -757,7 +757,6 @@ border: .5px solid rgba(242,242,242,0.03);
   display: inline-block;
   width: 46%;
   height: 70%;
-  /*overflow: hidden*/
   /*border: solid white;*/
 }
 
@@ -766,7 +765,6 @@ border: .5px solid rgba(242,242,242,0.03);
   display: inline-block;
   width: 51%;
   height: 70%;
-  /*overflow: hidden*/
   /*border: solid white;*/
 }
 .homecontainer3{
@@ -776,7 +774,6 @@ border: .5px solid rgba(242,242,242,0.03);
   display: inline-block;
   width: 99%;
   height: 70%;
-  /*overflow: hidden*/
   /*border: solid white;*/
 }
 
@@ -897,15 +894,6 @@ border: .5px solid rgba(242,242,242,0.03);
 
 @media  (max-width: 1000px) {
   
-  .htmlTextOverlay{
-  overflow: hidden;
-  display: inline-block;
-  position: absolute;
-  font-size: 22px;
-  text-align: left;
-  width: 100vw;
-  height: 100vh;
-}
   .divider{
     padding-top: 0vh;
   }
