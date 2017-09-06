@@ -1110,7 +1110,7 @@ border: .5px solid rgba(242,242,242,0.03);
 }
 canvas{
   display:block;
-  overflow: hidden;
+  
   vertical-align:bottom;
   position: absolute;
   z-index: 100;
