@@ -48,14 +48,14 @@ html{
   overflow-x: hidden;
   overflow-y: scroll;
 }
-canvas{
+/*canvas{
   display:block;
   overflow: hidden;
   vertical-align:bottom;
   position: absolute;
   z-index: 100;
   border: solid white;
-}
+}*/
 
 
 /* ---- stats.js ---- */
@@ -1108,15 +1108,7 @@ border: .5px solid rgba(242,242,242,0.03);
   -o-animation: r-to-l 0.4s infinite;
   animation: r-to-l 0.4s infinite;
 }
-canvas{
-  display:block;
-  
-  vertical-align:bottom;
-  position: absolute;
-  z-index: 100;
-  border: solid white;
-  height: 100%;
-}
+
 }
 
 
