@@ -1154,8 +1154,8 @@ html,body{
   z-index: 8; /* to position it in front of the other content */
   position: absolute;
   overflow: hidden; /* to prevent scrollbar appearing */
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .slide-in.from-left {
