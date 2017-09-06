@@ -893,7 +893,9 @@ border: .5px solid rgba(242,242,242,0.03);
 /*=============================MEDIA QUERIES========================*/
 
 @media  (max-width: 1000px) {
-  
+  body{
+    overflow: hidden;
+  }
   .divider{
     padding-top: 0vh;
   }
