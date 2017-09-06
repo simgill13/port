@@ -290,6 +290,6 @@ clicks()
 // $('#next').click(function() {
 //   moveToSelected('next');
 // });
-document.ontouchmove = function(event){
-    event.preventDefault();
-}
+// document.ontouchmove = function(event){
+//     event.preventDefault();
+// }
