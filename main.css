@@ -1011,7 +1011,7 @@ border: .5px solid rgba(242,242,242,0.03);
 
 
 
-/*==========iphone query*/
+/*==========iphone query===============================================*/
 
 
 @media only screen 
@@ -1023,13 +1023,58 @@ border: .5px solid rgba(242,242,242,0.03);
 html,body{
   background: #252627 !important;
 }
+.homecontainer {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    height: 70%;
+    /* border: solid white; */
+}
  .main{
   /*height: 100%;*/
   background: #252627 !important;
   overflow-x: hidden;
   overflow-y: hidden;
 }
-
+.bodyText {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.h1texttag {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.hitext{
+  margin-top: 1%;
+  margin-left :10%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: white;
+  
+}
+.descriptionline{
+  margin-left: 10%;
+  color: #8d8d8d;
+    margin-top: 9px;
+    font-weight: normal;
+    font-size: 11px;
+    font-family: "Open Sans",sans-serif;
+    letter-spacing: 3px;
+}
+.stext{
+  margin-top: 1%;
+  margin-left:10%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: white; 
+}
+.webdevtext{
+   margin-top: 1%;
+  margin-left :10%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: white;
+}
 .nav{
 
  /* overflow: hidden;*/
