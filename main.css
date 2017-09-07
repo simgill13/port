@@ -1023,6 +1023,11 @@ border: .5px solid rgba(242,242,242,0.03);
   html,body{
     background: #252627 !important;
   }
+  #cont-cubo {
+    margin: 0px auto;
+    perspective: 600px;
+    animation: cont-cubo 10s infinite linear;
+  }
   .homecontainer {
     vertical-align: top;
     display: inline-block;
