@@ -595,7 +595,7 @@ border: .5px solid rgba(242,242,242,0.03);
 
 
 /* Global */
-* {
+/** {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -604,7 +604,7 @@ border: .5px solid rgba(242,242,242,0.03);
   -ms-user-select: none;
   user-select: none;
 }
-
+*/
 
 .container {
   width: 100%;
