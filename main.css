@@ -608,7 +608,7 @@ border: .5px solid rgba(242,242,242,0.03);
 
 .container {
   width: 100%;
-  height: 100%;
+  height: 90vh;
   max-height: 100%;
   margin: 0;
   padding: 0;
@@ -687,12 +687,14 @@ border: .5px solid rgba(242,242,242,0.03);
   bottom: -50px;
   right: 5%;
   pointer-events: all;
+
 }
 
 .buttons button {
   transition: ease .4s;
-}
 
+}
+ 
 .btn-prev,
 .btn-next {
   width: 60px;
@@ -702,33 +704,24 @@ border: .5px solid rgba(242,242,242,0.03);
   outline: none;
   border-radius: 60px;
   color: #FFFFFF;
-  background: -webkit-linear-gradient(top, #F5515F, #E91E63);
-  background: linear-gradient(to bottom, #F5515F, #E91E63);
-  box-shadow: 0px 3px 15px 2px rgba(245,81,95,.8);
+  background: -webkit-linear-gradient(top, #00FFD7, #00FFD7);
+  background: linear-gradient(to bottom, #00FFD7, #00FFD7);
+  /*box-shadow: 0px 3px 15px 2px rgba(245,81,95,.8);*/
   cursor: pointer;
 }
 
 .buttons button:hover {
-  box-shadow: 0px 3px 30px 3px rgba(245,81,95,.8);
+ /* box-shadow: 0px 3px 30px 3px rgba(245,81,95,.8);*/
 }
 
 .buttons button:disabled {
   box-shadow: 0px 1px 5px 0px rgba(245,81,95,.8);
-  background: -webkit-linear-gradient(top, #E91E63, #F5515F);
-  background: linear-gradient(to bottom, #E91E63, #F5515F);
+  background: -webkit-linear-gradient(top, #00FFD7, #00FFD7);
+  background: linear-gradient(to bottom, #00FFD7, #00FFD7);
   cursor: default;
 }
 
-/* Optional content */
-.optional {
-  width: 80%;
-  max-width: 680px;
-  margin: 6em auto;
-  padding: 2em 3em;
-  box-shadow: 
-    0 3px 12px rgba(0,0,0,0.16), 
-    0 3px 12px rgba(0,0,0,0.23);
-}
+
 
 @media (max-width: 620px) {
  
