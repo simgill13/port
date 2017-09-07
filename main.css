@@ -1045,7 +1045,7 @@ border: .5px solid rgba(242,242,242,0.03);
     padding: 9px;
   }
   .timelinepic {
-    width: 359px;
+    width: 100%;
     height: 130px;
   }
   .abtext {
