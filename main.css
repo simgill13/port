@@ -731,10 +731,7 @@ border: .5px solid rgba(242,242,242,0.03);
 }
 
 @media (max-width: 620px) {
-  body {
-    font-size: 13px;
-    line-height: 1.5em;
-  }
+ 
   .info {
     position: absolute;
     width: 100%;
