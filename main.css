@@ -606,142 +606,113 @@ border: .5px solid rgba(242,242,242,0.03);
 }
 */
 
-.container {
-  width: 100%;
-  height: 90vh;
-  max-height: 100%;
-  margin: 0;
-  padding: 0;
-  /* Font styles */
-  font-family: 'Roboto Slab', serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  color: #607D8B;
-  letter-spacing: .01em;
-}
+.
 
-.container {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slideshow-container{
+  width: 800px;
   position: relative;
-}
+  margin: auto;
 
-/* Panels */
-.swipe {
-  position: relative;
+}
+.numbers{
+  position: absolute;
+    top: 0;
+    color: #f2f2f2;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+.myslides{
+  display: none;
+}
+.prev , .next{
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: -22px;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    cursor: pointer;
+}
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,.next:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+.caption{
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
   width: 100%;
-  height: 100%; /* "min-height" doesn't work on Firefox. */
-  background: #eee;
-  overflow-x: hidden;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 22px;
 }
-
-.panel {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  top: 0;
-  left: 0;
-  padding: 20px;
-}
-
-.left {
-  left: -100%;
-}
-
-.right {
-  left: 100%;
-}
-
-/* Info */
-.info {
-  position: absolute;
-  width: 80%;
-  max-width: 500px;
-  bottom: 20%;
-  right: 10%;
-  pointer-events: none;
-}
-
-.inner {
-  position: relative;
-  padding: 1.66em 3em;
-  background: #FFFFFF;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.info:before {
-  content: "";
-  position: absolute;
-  width: 65%;
-  height: 80%;
-  top: 0;
-  left: 0;
-  -webkit-transform: translate(-10px, -10px);
-  -ms-transform: translate(-10px, -10px);
-  -o-transform: translate(-10px, -10px);
-  transform: translate(-10px, -10px);
-  background: #E91E63;
-  background: #3F51B5;
-}
-
-.buttons {
-  position: absolute;
-  bottom: -50px;
-  right: 5%;
-  pointer-events: all;
-
-}
-
-.buttons button {
-  transition: ease .4s;
-
-}
- 
-.btn-prev,
-.btn-next {
-  width: 60px;
-  height: 60px;
-  margin-left: 10px;
-  border: none;
-  outline: none;
-  border-radius: 60px;
-  color: #FFFFFF;
-  background: -webkit-linear-gradient(top, #00FFD7, #00FFD7);
-  background: linear-gradient(to bottom, #00FFD7, #00FFD7);
-  /*box-shadow: 0px 3px 15px 2px rgba(245,81,95,.8);*/
+.dotsss{
+  width: 13px;
+  height: 13px;
+  background: gray;
+  display: inline-block;
+  border-radius: 50%;
   cursor: pointer;
 }
-
-.buttons button:hover {
- /* box-shadow: 0px 3px 30px 3px rgba(245,81,95,.8);*/
+.fadeee{
+  animation-name:fade;
+  animation-duration:1.5s;
+}
+@keyframes fade{
+  from {opacity: 0.4;}
+  to {opacity: 1;}
+}
+.active, .dot:hover {
+  background-color: #333;
 }
 
-.buttons button:disabled {
-  box-shadow: 0px 1px 5px 0px rgba(245,81,95,.8);
-  background: -webkit-linear-gradient(top, #00FFD7, #00FFD7);
-  background: linear-gradient(to bottom, #00FFD7, #00FFD7);
-  cursor: default;
+
+
+
+.yo{
+  width: 100%;
+  height: 100%;
 }
 
 
 
-@media (max-width: 620px) {
- 
-  .info {
-    position: absolute;
-    width: 100%;
-    max-width: 100%;
-    bottom: 0;
-    right: 0;
-  }
 
-  .inner {
-    padding: .5em 1.5em;
-    box-shadow: none;
-  }
-  
-  .buttons {
-    display: initial;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -919,10 +890,30 @@ border: .5px solid rgba(242,242,242,0.03);
   z-index: 8;
   vertical-align: top;
   display: inline-block;
-  width: 99%;
-  height: 70%;
-  /*border: solid white;*/
+  width: 99.99%;
+  height: 99.99%;
+  border: solid white;
+ /* padding-top: 8%;*/
+  padding-left: 6%;
 }
+.imgleft{
+  display: inline-block;
+  width: 40%;
+  height: 60%;
+  border: solid green;
+}
+.descriptionRight{
+  display: inline-block;
+  width: 59%;
+  height: 60%;
+  border: solid red;
+}
+.choice{
+  width: 99.99%;
+  height: 39.99%;
+  border: solid yellow;
+}
+
 
 
 .overlaytext{
@@ -1042,6 +1033,9 @@ border: .5px solid rgba(242,242,242,0.03);
 @media  (max-width: 1000px) {
 
 
+.projectsection{
+    overflow-y: visible;: 
+  }
   .divider{
     padding-top: 0vh;
   }
@@ -1151,6 +1145,7 @@ border: .5px solid rgba(242,242,242,0.03);
     display: inline-block !important;
     color: #4D4D4E;
   }
+
   
 }
 
