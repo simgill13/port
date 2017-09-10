@@ -88,7 +88,7 @@
 
   <!-- about section  -->
   <section>
-    <div id="aboutsection" class="htmlTextOverlay hidden smallerScreen">
+    <div id="aboutsection" class="htmlTextOverlay hidden smallerScreen animated fadeIn">
       <div class="homecontainer">
         <p class="overlaytext bodyText"> < body > </p>
         <p class="overlaytext h1texttag bounce"> < h1 > </p>
@@ -113,7 +113,7 @@
 
   <!-- skills section  -->
   <section>
-    <div id="skillssection" class="htmlTextOverlay hidden smallerScreen">
+    <div id="skillssection" class="htmlTextOverlay hidden smallerScreen animated fadeIn">
       <div class="homecontainer">
         <p class="overlaytext bodyText"> < body > </p>
         <p class="overlaytext h1texttag bounce"> < h1 > </p>
@@ -142,45 +142,160 @@
     </div>
   </section>
 
-
   <!-- work section  -->
   <section>
-    <div id="worksection" class="htmlTextOverlay hidden smallerScreen projectsection">
-      <div class="homecontainer3">
-        <div class="slideshow-container">
+    <div id="worksection" class="htmlTextOverlay hidden smallerScreen projectsection ">
+      <div id="worksectionprojectsdiv" class="homecontainer3 animated fadeIn">
 
-  <div class="myslides fadeee">
-    <div class="numbers">1 / 4</div>
-    <div><img  class="yo" src="./pic1.png"></div>
-    <div class="caption">Text 1</div>
-  </div>
+        <div class="projectholder ">
+          <div  class="phleftside showHideToggle">
+            <img class="projectimagesdesktop" src="./virtualvacay.png">
+            <p class="workoverlaytext workstext"> <span  id="sletter" class="specials ">V</span>irtual Vacay </p>
+            <p class="worktext">Explore the world and sounds</p>
+          </div><div class="phrightside">
+            
+            <p class="workdescriptiontext">Travel and listen to the sounds of the world. V. V uses youtube and soundcloud api to deliver an relaxing experience.</p>
+            <p class="techstacktitle">Tech Stack:</p>
+            <p class="techstacktext">
+              React Router | Redux | React.js | JavaScript | JQuery | Node.js | MongoDB.
+            </p>
+            <button class="githubbtn">Github</button>
+            <button class="demobtn">Demo</button>
 
-  <div class="myslides fadeee">
-    <div class="numbers">2 / 4</div>
-    <div><img class="yo" src="./pic1.png"></div>
-    <div class="caption">Text 2</div>
-  </div>
-
-  <div class="myslides fadeee">
-    <div class="numbers">3 / 4</div>
-    <div><img class="yo" src="skyhigh.png"></div>
-    <div class="caption">Text 3</div>
-  </div>
-
-  <div class="myslides fadeee">
-    <div class="numbers">4 / 4</div>
-    <div><img class="yo" src="./pic1.png"></div>
-    <div class="caption">Text 4</div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-
-</div>
+          </div> 
+        </div>
         
 
-        
+        <!-- Only shown on smaller screen sizes -->
+
+
+        <div class="projectholder workProjectHideToggle  ">
+          <div class="phleftside ">
+            <img class="projectimagesdesktop" src="./skyhigh.png">
+            <p class="workoverlaytext workstext"> <span  id="sletter" class="specials ">S</span>ky High Vacay </p>
+            <p class="worktext">Keep your clients up to date with Sky High.</p>
+          </div><div class="phrightside">
+            
+            <p class="workdescriptiontext">Sky High uses React in creating a clean UI for clients.</p>
+            <p class="techstacktitle">Tech Stack:</p>
+            <p class="techstacktext">
+              React Router | Redux | React.js | JavaScript | JQuery | Node.js | MongoDB.
+            </p>
+            <button class="githubbtn">Github</button>
+            <button class="demobtn">Demo</button>
+
+          </div> 
+        </div>
+
+
+
+
+
+         <div class="projectholder workProjectshowToggle">
+          <div class="phrightside">
+            
+            <p class="workdescriptiontext">Sky High uses React in creating a clean UI for clients.</p>
+            <p class="techstacktitle">Tech Stack:</p>
+            <p class="techstacktext">
+              React Router | Redux | React.js | JavaScript | JQuery | Node.js | MongoDB.
+            </p>
+            <button class="githubbtn">Github</button>
+            <button class="demobtn">Demo</button>
+
+          </div><div class="phleftside showHideToggle">
+            <img class="projectimagesdesktop" src="./skyhigh.png">
+            <p class="workoverlaytext workstext"> <span  id="sletter" class="specials ">S</span>ky High </p>
+            <p class="worktext">Keep your clients up to date with Sky High</p>
+          </div> 
+        </div>
+
+
+
+
+        <div class="projectholder ">
+          <div class="phleftside showHideToggle">
+            <img class="projectimagesmobile" src="./f.png">
+            <p class="workoverlaytext workstext"> <span  id="sletter" class="specials ">S</span>.D.S </p>
+            <p class="worktext">A ios social app intended to spark converseration</p>
+          </div><div class="phrightside">
+            
+            <p class="workdescriptiontext">Built with React Native. S.D.A allows users to upload images, text, and have group chats.</p>
+            <p class="techstacktitle">Tech Stack:</p>
+            <p class="techstacktext">
+              Expo | Redux | React.js | JavaScript | React-Native | Node.js | MongoDB.
+            </p>
+            <button class="githubbtn">Github</button>
+            <button class="demobtn">Demo</button>
+
+          </div> 
+        </div>
+
+
+        <!-- only shown on smaller screens -->
+
+         <div class="projectholder workProjectHideToggle  ">
+          <div class="phleftside ">
+            <img class="projectimagesdesktop" src="./spacerep.png">
+            <p class="workoverlaytext workstext"> <span  id="sletter" class="specials ">M</span>em Eye Q </p>
+            <p class="worktext">Learn a new language at a rapid pace.</p>
+          </div><div class="phrightside">
+            
+            <p class="workdescriptiontext">MemEye Q uses React and a space repetition algorithm.</p>
+            <p class="techstacktitle">Tech Stack:</p>
+            <p class="techstacktext">
+              React Router | Redux | React.js | JavaScript | JQuery | Node.js | MongoDB.
+            </p>
+            <button class="githubbtn">Github</button>
+            <button class="demobtn">Demo</button>
+
+          </div> 
+        </div>
+
+
+
+
+         <div class="projectholder workProjectshowToggle ">
+          <div class="phrightside">
+            
+            <p class="workdescriptiontext">MemEye Q uses React and a space repetition algorithm.</p>
+            <p class="techstacktitle">Tech Stack:</p>
+            <p class="techstacktext">
+              React Router | Redux | React.js | JavaScript | JQuery | Node.js | MongoDB.
+            </p>
+            <button class="githubbtn">Github</button>
+            <button class="demobtn">Demo</button>
+
+          </div><div class="phleftside showHideToggle">
+            <img class="projectimagesdesktop" src="./spacerep.png">
+            <p class="workoverlaytext workstext"> <span  id="sletter" class="specials ">M</span>em Eye Q </p>
+            <p class="worktext">Learn a new language at a rapid pace.</p>
+          </div> 
+        </div>
+
+
+
+
+
+
+          <div class="projectholder ">
+          <div class="phleftside showHideToggle">
+            <p><img class="projectimagesmobile" src="./discover.png"></p>
+            <p class="workoverlaytext workstext"> <span  id="sletter" class="specials ">D</span>isCover </p>
+            <p class="worktext">Find yourself the right career</p>
+          </div><div class="phrightside">
+            
+            <p class="workdescriptiontext">Built with React Native. DisCover allows users to find a career path that is well suited for them.</p>
+            <p class="techstacktitle">Tech Stack:</p>
+            <p class="techstacktext">
+              Expo | Redux | React.js | JavaScript | React-Native | Node.js | MongoDB.
+            </p>
+            <button class="githubbtn">Github</button>
+            <button class="demobtn">Demo</button>
+
+          </div> 
+        </div>
+
+  
       </div>
     </div>
   </section>
@@ -188,7 +303,7 @@
 
    <!-- contact section  -->
   <section>
-    <div id="contactsection" class="htmlTextOverlay hidden smallerScreen">
+    <div id="contactsection" class="htmlTextOverlay hidden smallerScreen animated fadeIn">
       <div class="homecontainer">
         <p class="overlaytext bodyText"> < body > </p>
         <p class="overlaytext h1texttag bounce"> < h1 > </p>

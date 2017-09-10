@@ -162,6 +162,7 @@ function clicks(){
     $('#contactsection').addClass('hidden')
   })
   $('#workiconid').click(function() {
+     
     $(".fa-home").css({"color": "#4D4D4E"})
     $(".fa-user-secret").css({"color": "#4D4D4E"})
     $(".fa-code").css({"color": "#4D4D4E"})
@@ -211,6 +212,9 @@ function slide(){
 }
 
 function active(){
+
+         
+
   $('#homeid,#aboutid,#skillsid,#workiconid,#contactid').click(function() {
     var selectedicon = $(this).attr('id');
     var array= ['homeid','aboutid','skillsid','workiconid','contactid']
@@ -261,3 +265,9 @@ function showSlide(n){
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+
+
+
+     
