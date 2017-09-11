@@ -234,6 +234,7 @@ function active(){
 
 
 function twillio(message){
+
   
   var post = {
     text:message
@@ -243,6 +244,7 @@ function twillio(message){
  $.ajax( {
     type: 'post',
     url: "https://vast-reaches-68341.herokuapp.com/textmsg",
+
     data: JSON.stringify(post),
     xhrFields: {
       withCredentials: false
@@ -281,7 +283,10 @@ $( ".sendtextmsgbtn" ).click(function() {
 
   // concating msg for twllio
   var textmessage = name+message
+
   twillio(textmessage)
+  $( ".inputfname" ).val(' ')
+  $( ".textarea" ).val(' ')
 });
 
 
