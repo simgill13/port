@@ -256,8 +256,8 @@ function twillio(message){
     },
     error: function() {
       
-      
       console.log("something went wrong")
+      alert('sorry server is down')
     }
   })
 
