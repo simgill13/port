@@ -242,7 +242,7 @@ function twillio(message){
 
  $.ajax( {
     type: 'post',
-    url: "https://guarded-stream-56386.herokuapp.com/textmsg",
+    url: "https://vast-reaches-68341.herokuapp.com/textmsg",
     data: JSON.stringify(post),
     xhrFields: {
       withCredentials: false
@@ -252,6 +252,7 @@ function twillio(message){
       console.log('Success');
 
       console.log(data) 
+      alert('message sent, thank you')
     },
     error: function() {
       
